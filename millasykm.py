@@ -6,3 +6,12 @@ kilometros_a_millas = kilometros / 1.61
 
 print(millas, " millas son ", round(millas_a_kilometros, 2), " kilómetros ")
 print(kilometros, " kilómetros son ", round(kilometros_a_millas, 2), " millas ")
+
+bolivianos = 3500
+dolares = 850
+
+Sus_a_BOB = dolares * 6.69
+BOB_a_Sus = bolivianos / 6.69
+
+print(dolares,"dolares son", round(Sus_a_BOB, 2), "bolivianos")
+print(bolivianos,"bolivianos son",round(BOB_a_Sus, 2),"dolares")
