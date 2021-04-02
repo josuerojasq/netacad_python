@@ -1,3 +1,6 @@
+#Introduccion al uso de comentarios
+#Estos se inician con el caracter "#"
+
 # Esta programa calcula la hipotenusa (c)
 # a y b son las longitudes de los catetos
 a = 3.0

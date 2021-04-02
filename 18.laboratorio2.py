@@ -1,3 +1,7 @@
+#Laboratorio 2
+#Evaluar la siguiente expresion:
+#3x^3 - 2x^2 + 3x - 1
+
 # codifica aquí tus datos de prueba.
 # x = 1
 # x = 0

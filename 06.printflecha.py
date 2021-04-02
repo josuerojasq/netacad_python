@@ -1,3 +1,4 @@
+#Laboratorio sobre el manejo de "end" y "sep"
 print("    *")
 print("   * *")
 print("  *   *")

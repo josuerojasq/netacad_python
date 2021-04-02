@@ -1,3 +1,7 @@
+#Laboratorio de Variables
+
+#Millas a kilómetros.
+#Kilómetros a millas.
 kilometros = 12.25
 millas = 7.38
 
@@ -7,6 +11,8 @@ kilometros_a_millas = kilometros / 1.61
 print(millas, " millas son ", round(millas_a_kilometros, 2), " kilómetros ")
 print(kilometros, " kilómetros son ", round(kilometros_a_millas, 2), " millas ")
 
+#Bolivianos a Dolares
+#Dolares a bolivianos
 bolivianos = 3500
 dolares = 850
 
