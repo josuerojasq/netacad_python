@@ -12,7 +12,7 @@ anio = int(input("Introduzca un año:"))
 #
 if anio >= 1582:
     if (anio % 4) != 0 : print("Año comun")
-    elif (anio % 100) != 100 : print("Año bisiesto")
-    elif (anio % 400) != 400 : print("Año comun")
+    elif (anio % 100) != 0 : print("Año bisiesto")
+    elif (anio % 400) != 0 : print("Año comun")
     else: print("Año bisiesto")
 else: print("No dentro del período del calendario gregoriano")
