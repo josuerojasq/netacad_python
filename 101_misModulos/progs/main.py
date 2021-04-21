@@ -1,6 +1,6 @@
 from sys import path
 
-path.append('/home/joerojas/Desarrollo/Curso-Basico-Phyton/101.misModulos/modules')
+path.append('/home/joerojas/Desarrollo/Curso-Basico-Python/101_misModulos/modules')
 
 import modulo2
 
