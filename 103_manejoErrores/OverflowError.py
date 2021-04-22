@@ -1,0 +1,13 @@
+#Una excepción concreta que surge cuando una operación produce un número demasiado grande
+# para ser almacenado con éxito.
+# el código imprime los valores subsequentes 
+# de exp(k), k = 1, 2, 4, 8, 16, ...
+from math import exp
+
+ex = 1
+try:
+    while True:
+        print(exp(ex))
+        ex *= 2
+except OverflowError:
+    print('El número es demasiado grande.')
