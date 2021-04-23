@@ -8,7 +8,6 @@ def misplit(strng):
     try:
         strng = strng.strip()
         
-
 print(misplit("Ser o no ser, esa es la pregunta"))
 print(misplit("Ser o no ser,esa es la pregunta"))
 print(misplit("   "))
