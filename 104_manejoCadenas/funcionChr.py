@@ -6,6 +6,7 @@
 
 print(chr(97))
 print(chr(945))
+print(chr(83))
 print()
 
 #Nota:

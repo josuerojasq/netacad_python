@@ -5,6 +5,7 @@
 # y devuelve un número que representa el punto de código del argumento.
 ch1 = 'a' 
 ch2 = ' ' # espacio
+ch3 = ""
 
 print(ord(ch1))
 print(ord(ch2))

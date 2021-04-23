@@ -7,9 +7,25 @@ def misplit(strng):
     listaFinal = []
     try:
         strng = strng.strip()
-        
+        if " " in strng:
+            word = ""
+            for char in strng:
+                if ord(char) != 32: word += char
+                else:
+                    if len(word) > 0: listaFinal.append(word)
+                    word = ""
+            listaFinal.append(word)
+        else:
+            if len(strng) > 0: listaFinal.append(strng)
+        return listaFinal
+    except:
+        print("Debes introducir una cadena...")
+        return None
+
 print(misplit("Ser o no ser, esa es la pregunta"))
 print(misplit("Ser o no ser,esa es la pregunta"))
+print(misplit("Joel  Rojas   Quisbert   JoeRojas  "))
 print(misplit("   "))
 print(misplit(" abc "))
 print(misplit(""))
+print(misplit(1235))

@@ -3,3 +3,8 @@
 print("[" + "   aleph   ".strip() + "]")
 print("[" + "   texto con espacios   ".strip() + "]")
 print("[" + "   ".strip() + "]")
+
+texto = " Texto de prueba con espacios "
+print("[" + texto + "]")
+texto = texto.strip()
+print("[" + texto + "]")
