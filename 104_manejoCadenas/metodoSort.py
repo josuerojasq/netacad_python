@@ -5,3 +5,7 @@ print(secondGreek)
 
 secondGreek.sort()
 print(secondGreek)
+
+lista1 = ['T', 'e', 'x', 't', 'o', ' ', 'd', 'e', ' ', 'e', 'j', 'e', 'm', 'p', 'l', 'o', ',', ' ', 'f', 'i', 'n']
+lista1.sort()
+print(lista1)

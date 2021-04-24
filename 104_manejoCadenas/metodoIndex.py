@@ -9,3 +9,4 @@ exampleString = "aAbByYzZaA"
 print(exampleString.index("b"))
 print(exampleString.index("Z"))
 print(exampleString.index("A"))
+#print(exampleString.index("J")) J no esta en example por eso genera error

@@ -6,3 +6,9 @@ firstGreek2 = sorted(firstGreek)
 
 print(firstGreek)
 print(firstGreek2)
+print()
+
+lista1 = ['T', 'e', 'x', 't', 'o', ' ', 'd', 'e', ' ', 'e', 'j', 'e', 'm', 'p', 'l', 'o', ',', ' ', 'f', 'i', 'n']
+lista2 = sorted(lista1)
+print(lista1)
+print(lista2)

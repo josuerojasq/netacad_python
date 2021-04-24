@@ -8,3 +8,8 @@
 #La cadena recién creada se devuelve como resultado.
 cadena = ","
 print(cadena.join(["omicron", "pi", "rho"]))
+
+lista = ['esta', 'es', 'una', 'prueba', 'del', 'metodo', 'join', 'para', 'el', 'labo']
+texto = ""
+texto = texto.join(lista)
+print(texto)

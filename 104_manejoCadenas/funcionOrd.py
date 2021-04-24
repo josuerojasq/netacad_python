@@ -16,3 +16,7 @@ ch4 = 'ę'
 
 print(ord(ch3))
 print(ord(ch4))
+print()
+
+print(ord('a'), ord('z'))
+print(ord('A'), ord('Z'))
