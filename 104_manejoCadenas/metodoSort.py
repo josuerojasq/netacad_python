@@ -9,3 +9,7 @@ print(secondGreek)
 lista1 = ['T', 'e', 'x', 't', 'o', ' ', 'd', 'e', ' ', 'e', 'j', 'e', 'm', 'p', 'l', 'o', ',', ' ', 'f', 'i', 'n']
 lista1.sort()
 print(lista1)
+
+listaNum = ['1', '1', '9', '8', '8', '2', '7', '0', '8']
+listaNum.sort()
+print(listaNum)

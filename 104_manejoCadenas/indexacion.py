@@ -10,5 +10,8 @@ print('\n')
 #Iterar a través de las cadenas funciona también.
 for ch in exampleString:
     print(ch, end=' ')
-
 print()
+
+for i in range(9):
+    print(i,end=" ")
+print(i)
